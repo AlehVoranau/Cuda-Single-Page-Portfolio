@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 h1 {
     font-size: bold 40px;
 }
@@ -32,15 +36,13 @@ h1, a {
 
 }
 
-.wrapper {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Titillium Web', sans-serif;
+.color-purple {
+    background: #87509c; 
 }
 
-.page-first {
-    background: #87509c; 
+.page-first, .page-second, .page-third, .page-four, .page-fifth, .page-six, .page-seven {
+    width: 1140px;
+    margin: 0 auto;
     padding-bottom: 100px;
 }
 
@@ -88,19 +90,20 @@ h1, a {
 
 .text-first {
     font-size: bold 42px;
-    padding: 143px 256px 0px;
+    margin: 150px 40px 0;
     display: inline-block;
     text-align: center;
     line-height: 1.2;    
 }
 
-
+.color-turquoise {
+    background: #17c2a4; 
+}
 
 .page-second {
     background: #17c2a4; 
     text-align: center;
     color: white;
-    padding-bottom: 100px;
 }
 
 .collumn {
@@ -120,7 +123,6 @@ h1, a {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    padding-bottom: 40px;  
 }
 
 .page-name {
@@ -133,11 +135,14 @@ h1, a {
     padding: 10px 0 40px 0;
 }
 
+.color-grey {
+    background: #e7f1f8; 
+}
+
 .page-third {
     background: #e7f1f8; 
     text-align: center;
     color: #3c4761;
-    padding-bottom: 100px;
 }
 
 .collumn-content a {
@@ -215,11 +220,14 @@ h1, a {
 	background: #a7c7dd;
 }
 
+.color-white {
+    background: #ffffff; 
+}
+
 .page-four {
     background: #ffffff; 
     text-align: center;
     color: #3c4761;
-    padding-bottom: 100px;
 }
 
 .collumn-skills, .collumn-skills a {
@@ -258,21 +266,23 @@ h1, a {
 }
 
 .collumn-content {
-    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.color-beige {
+    background: #ffdd99; 
 }
 
 .page-fifth {
     background: #ffdd99; 
     text-align: center;
     color: #393939;
-    padding-bottom: 100px;
 }
 
 .second-navigation {
     margin: 0 auto;
     display: inline-flex;
     list-style: none;
-    
 }
 
 .second-navigation li {
@@ -317,14 +327,17 @@ h1, a {
     width: 410px;
     height: 256px;
     position: relative;
-    top: 18px;    
+    margin-top: 18px;    
+}
+
+.color-pink {
+    background: #d74680; 
 }
 
 .page-six {
     background: #d74680; 
     text-align: center;
     color: #ffffff;
-    padding-bottom: 100px;
 }
 
 .collumn-people {
@@ -368,11 +381,14 @@ h1, a {
     color: #ffdd99;
 }
 
+.color-blue {
+    background: #3c5499; 
+}
+
 .page-seven {
     background: #3c5499; 
     text-align: center;
     color: #ffffff;
-    padding-bottom: 100px;
 }
 
 .form-name, .form-email, .form-message {
@@ -392,8 +408,6 @@ h1, a {
     height: 16px;
 }
 
-
-
 .form-name:focus, .form-email:focus, .form-message:focus {
     background: #1d3169;
     outline: none;
@@ -401,10 +415,17 @@ h1, a {
 
 .form-message {
 	width: 860px;
-    height: 200px;z
+    height: 200px;
+    resize: vertical;
+}
+
+.color-darkblue {
+    background: #344b8e; 
 }
 
 .footer {
+    width: 1140px;
+    margin: 0 auto;
     height: 112px;
     background: #344b8e; 
     text-align: center;
